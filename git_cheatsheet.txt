@@ -43,3 +43,9 @@ wiping history from the repository
 git reset --hard <old-commit-id>
 
 git push -f <remote-name> <branch-name> |... note typically you would push to origin main
+
+==============================================================================
+Count the number of lines of code in a given repo
+==============================================================================
+
+git ls-files | xargs wc -l
